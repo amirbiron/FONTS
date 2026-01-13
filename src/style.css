@@ -1,0 +1,687 @@
+:root {
+  --main1: #995fe7;
+  --main2: #5da9cf;
+  --main3: #7fd5be;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #fcfcfc;
+  line-height: 1;
+}
+h1 {
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  font: 900 100px playfair display;
+  color: transparent;
+  width: 400px;
+  -webkit-background-clip: text;
+  background-image: radial-gradient(circle at center, var(--main1), var(--main2), var(--main3));
+}
+h2 {
+  margin: auto;
+  font: 800 11px fira sans;
+  width: 400px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+#font-grid {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 10px;
+  justify-content: space-between;
+}
+#font-grid div {
+  background: #f1f1f1;
+  width: 32%!important;
+  border: 1px solid #222;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  margin: 0 0 10px 0;
+  padding: 10px;
+  background-image: radial-gradient(circle at center, var(--main3), var(--main2), var(--main1));
+  border-bottom: 1px solid #222;
+  font-size: 30px;
+}
+uc {
+  display: block;
+  text-transform: uppercase;
+}
+lc {
+  text-transform: lowercase;
+}
+
+#font-grid div:nth-child(1) {
+  font: 500 30px montserrat;
+}
+#font-grid div:nth-child(2) {
+  font: 500 30px roboto;
+}
+#font-grid div:nth-child(3) {
+  font: 500 30px playfair display;
+}
+#font-grid div:nth-child(4) {
+  font: 500 30px dm serif display;
+}
+#font-grid div:nth-child(5) {
+  font: 500 30px courier prime;
+}
+#font-grid div:nth-child(6) {
+  font: 500 30px fira sans;
+}
+#font-grid div:nth-child(7) {
+  font: 500 30px ubuntu mono;
+}
+#font-grid div:nth-child(8) {
+  font: 500 30px eb garamond;
+} 
+
+pre {
+  background: #fafafa;
+  padding: 20px;
+  margin: 10px;
+  font: 9px montserrat;
+  border: 1px solid #222;
+  word-break: break-all!important;
+  white-space: pre-wrap;
+}
+
+@font-face {font-family: achieve; src: url(https://files.jcink.net/uploads2/classifieds/achieve.ttf);}
+.achieve {
+  font-family: achieve;
+  font-size: 30px;
+}
+.achieve h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: allenoire; src: url(https://files.jcink.net/uploads2/classifieds/allenoire.otf);}
+.alle {
+  font-family: allenoire;
+  font-size: 30px;
+}
+.alle h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: amberla; src: url(https://files.jcink.net/uploads2/classifieds/amberla.ttf);}
+.amber {
+  font-family: amberla;
+  font-size: 30px;
+}
+.amber h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: anjel; src: url(https://files.jcink.net/uploads2/classifieds/anjel.ttf);}
+.anjel {
+  font-family: anjel;
+  font-size: 30px;
+}
+.anjel h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: aqila; src: url(https://files.jcink.net/uploads2/classifieds/aqila.otf);}
+.aqila {
+  font-family: aqila;
+  font-size: 30px;
+}
+.aqila h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: brother gothic; src: url(https://files.jcink.net/uploads2/classifieds/brother_gothic.otf);}
+.brother {
+  font-family: brother gothic;
+  font-size: 30px;
+}
+.brother h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: cafe brewery; src: url(https://files.jcink.net/uploads2/classifieds/cafe_brewery.ttf);}
+.cafe {
+  font-family: cafe brewery;
+  font-size: 30px;
+}
+.cafe h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: california; src: url(https://files.jcink.net/uploads2/classifieds/california.ttf);}
+.cali {
+  font-family: california;
+  font-size: 30px;
+}
+.cali h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: california harvest; src: url(https://files.jcink.net/uploads2/classifieds/CaliforniaHarvest.ttf);}
+.cali2 {
+  font-family: california harvest;
+  font-size: 30px;
+}
+.cali2 h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: cameo; src: url(https://files.jcink.net/uploads2/classifieds/cameo.ttf);}
+.cameo {
+  font-family: cameo;
+  font-size: 30px;
+}
+.cameo h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: canvas; src: url(https://files.jcink.net/uploads2/classifieds/canvas.otf);}
+.canvas {
+  font-family: canvas;
+  font-size: 30px;
+}
+.canvas h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: coco bold; src: url(https://files.jcink.net/uploads2/classifieds/Coco_Bold.otf);}
+.coco {
+  font-family: coco bold;
+  font-size: 30px;
+}
+.coco h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: cocogoose; src: url(https://files.jcink.net/uploads2/classifieds/Cocogoose_Pro_Regular_trial.ttf);}
+.coco2 {
+  font-family: cocogoose;
+  font-size: 30px;
+}
+.coco2 h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: constellations; src: url(https://files.jcink.net/uploads2/classifieds/constellations.ttf);}
+.con {
+  font-family: constellations;
+  font-size: 30px;
+}
+.cali h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: crimson; src: url(https://files.jcink.net/uploads2/classifieds/crimson.ttf);}
+.crimson {
+  font-family: crimson;
+  font-size: 30px;
+}
+.crimson h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: crobista; src: url(https://files.jcink.net/uploads2/classifieds/Crobista.otf);}
+.cro {
+  font-family: crobista;
+  font-size: 30px;
+}
+.cro h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: pixel cursive; src: url(https://files.jcink.net/uploads2/classifieds/Cursive.ttf);}
+.cursivee {
+  font-family: pixel cursive;
+  font-size: 30px;
+}
+.cursivee h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: cyberpunk sealion; src: url(https://files.jcink.net/uploads2/classifieds/Cyberpunk_Sealion.otf);}
+.cyber {
+  font-family: cyberpunk sealion;
+  font-size: 30px;
+}
+.cyber h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: deska magosta; src: url(https://files.jcink.net/uploads2/classifieds/deska_magosta.otf);}
+.deska {
+  font-family: deska magosta;
+  font-size: 30px;
+}
+.deska h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: diamond sparkling; src: url(https://files.jcink.net/uploads2/classifieds/diamond.ttf);}
+.diamond {
+  font-family: diamond sparkling;
+  font-size: 30px;
+}
+.diamond h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: double homicide; src: url(https://files.jcink.net/uploads2/classifieds/DoubleHomicide.ttf);}
+.double {
+  font-family: double homicide;
+  font-size: 30px;
+}
+.double h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: dreamscar; src: url(https://files.jcink.net/uploads2/classifieds/Dreamscar.ttf);}
+.dream {
+  font-family: dreamscar;
+  font-size: 30px;
+}
+.dream h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: economies enhancing; src: url(https://files.jcink.net/uploads2/classifieds/economies.ttf);}
+.eco {
+  font-family: economies enhancing;
+  font-size: 30px;
+}
+.eco h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: emojifont; src: url(https://files.jcink.net/uploads2/classifieds/EmojiFont.ttf);}
+.emoji {
+  font-family: emojifont;
+  font-size: 30px;
+}
+.emoji h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: enchanted sword; src: url(https://files.jcink.net/uploads2/classifieds/EnchantedSword.ttf);}
+.sword {
+  font-family: enchanted sword;
+  font-size: 30px;
+}
+.sword h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: fenix sans; src: url(https://files.jcink.net/uploads2/classifieds/FenixSans_Bold.otf);}
+.fenix {
+  font-family: fenix sans;
+  font-size: 30px;
+}
+.fenix h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: finches; src: url(https://files.jcink.net/uploads2/classifieds/Finches.otf);}
+.finches {
+  font-family: finches;
+  font-size: 30px;
+}
+.finches h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: foxes; src: url(https://files.jcink.net/uploads2/classifieds/Foxes.ttf);}
+.foxes {
+  font-family: foxes;
+  font-size: 30px;
+}
+.foxes h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: ganton; src: url(https://files.jcink.net/uploads2/classifieds/Ganton.otf);}
+.ganton {
+  font-family: ganton;
+  font-size: 30px;
+}
+.ganton h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: ghost dancer; src: url(https://files.jcink.net/uploads2/classifieds/Ghost_Dancer.ttf);}
+.ghost {
+  font-family: ghost dancer;
+  font-size: 30px;
+}
+.ghost h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: glassure; src: url(https://files.jcink.net/uploads2/classifieds/Glassure.otf);}
+.glass {
+  font-family: glassure;
+  font-size: 30px;
+}
+.glass h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: goaround; src: url(https://files.jcink.net/uploads2/classifieds/goaroundthebooks.ttf);}
+.goaround {
+  font-family: goaround;
+  font-size: 30px;
+}
+.goaround h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: hatolie; src: url(https://files.jcink.net/uploads2/classifieds/Hatolie.ttf);}
+.hat {
+  font-family: hatolie;
+  font-size: 30px;
+}
+.hat h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: heroeau; src: url(https://files.jcink.net/uploads2/classifieds/HEROEAU.otf);}
+.hero {
+  font-family: heroeau;
+  font-size: 30px;
+}
+.hero h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: hijrnotes; src: url(https://files.jcink.net/uploads2/classifieds/hijrnotes.ttf);}
+.hijr {
+  font-family: hijrnotes;
+  font-size: 30px;
+}
+.hijr h3 {
+  font-size: 40px;
+}
+.hijr uc {
+  font-size: 20px;
+}
+
+@font-face {font-family: k22s; src: url(https://files.jcink.net/uploads2/classifieds/k22s.ttf);}
+.k22s {
+  font-family: k22s;
+  font-size: 30px;
+}
+.k22s h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: kalemun; src: url(https://files.jcink.net/uploads2/classifieds/Kalemun.otf);}
+.kale {
+  font-family: kalemun;
+  font-size: 30px;
+}
+.kale h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: planet kosmos; src: url(https://files.jcink.net/uploads2/classifieds/kosmos.ttf);}
+.kosmos {
+  font-family: planet kosmos;
+  font-size: 30px;
+}
+.kosmos h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: lemonmilk; src: url(https://files.jcink.net/uploads2/classifieds/lemonmilk.otf);}
+.lemon {
+  font-family: lemonmilk;
+  font-size: 30px;
+}
+.lemon h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: letter magic; src: url(https://files.jcink.net/uploads2/classifieds/Letter_Magic.ttf);}
+.letter {
+  font-family: letter magic;
+  font-size: 30px;
+}
+.letter h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: magic retro; src: url(https://files.jcink.net/uploads2/classifieds/Magic_Retro.ttf);}
+.magicr {
+  font-family: magic retro;
+  font-size: 30px;
+}
+.magicr h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: magilon; src: url(https://files.jcink.net/uploads2/classifieds/magilon.otf);}
+.magi {
+  font-family: magilon;
+  font-size: 30px;
+}
+.magi h3 {
+  font-size: 40px;
+}
+
+
+
+@font-face {font-family: maginors; src: url(https://files.jcink.net/uploads2/classifieds/maginors_maginors.ttf);}
+.magi2 {
+  font-family: maginors;
+  font-size: 30px;
+}
+.magi2 h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: masquerouge; src: url(https://files.jcink.net/uploads2/classifieds/masquerouge.ttf);}
+.mask {
+  font-family: masquerouge;
+  font-size: 30px;
+}
+.mask h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: megistica; src: url(https://files.jcink.net/uploads2/classifieds/megistica.ttf);}
+.megi {
+  font-family: megistica;
+  font-size: 30px;
+}
+.megi h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: megistica display; src: url(https://files.jcink.net/uploads2/classifieds/megisticad.ttf);}
+.megi2 {
+  font-family: megistica display;
+  font-size: 30px;
+}
+.megi2 h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: meoww; src: url(https://files.jcink.net/uploads2/classifieds/Meoww_Regular.ttf);}
+.meow {
+  font-family: meoww;
+  font-size: 30px;
+}
+.meow h3 {
+  font-size: 40px;
+  font-family: montserrat;
+}
+
+@font-face {font-family: moonrise; src: url(https://files.jcink.net/uploads2/classifieds/Moonrise_Regular.otf);}
+.moon {
+  font-family: moonrise;
+  font-size: 30px;
+}
+.moon h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: morva; src: url(https://files.jcink.net/uploads2/classifieds/MORVA.ttf);}
+.morva {
+  font-family: morva;
+  font-size: 30px;
+}
+.morva h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: mostfear; src: url(https://files.jcink.net/uploads2/classifieds/mostfear.ttf);}
+.most {
+  font-family: mostfear;
+  font-size: 30px;
+}
+.most h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: poppins bold; src: url(https://files.jcink.net/uploads2/classifieds/Poppins_Bold.ttf);}
+.popp {
+  font-family: poppins bold;
+  font-size: 30px;
+}
+.popp h3 {
+  font-size: 40px;
+}
+
+
+@font-face {font-family: posyden; src: url(https://files.jcink.net/uploads2/classifieds/posyden.otf);}
+.pos {
+  font-family: posyden;
+  font-size: 30px;
+}
+.pos h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: qallos; src: url(https://files.jcink.net/uploads2/classifieds/QallosTypeface.ttf);}
+.qall {
+  font-family: qallos;
+  font-size: 30px;
+}
+.qall h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: red velvet; src: url(https://files.jcink.net/uploads2/classifieds/Red_Velvet.ttf);}
+.redv {
+  font-family: red velvet;
+  font-size: 30px;
+}
+.redv h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: roligh; src: url(https://files.jcink.net/uploads2/classifieds/roligh.otf);}
+.roli {
+  font-family: roligh;
+  font-size: 30px;
+}
+.roli h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: sabrva; src: url(https://files.jcink.net/uploads2/classifieds/sabrva.ttf);}
+.sab {
+  font-family: sabrva;
+  font-size: 30px;
+}
+.sab h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: sacred; src: url(https://files.jcink.net/uploads2/classifieds/sacred.otf);}
+.sac {
+  font-family: sacred;
+  font-size: 30px;
+}
+.sac h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: hadaspa; src: url(https://files.jcink.net/uploads2/classifieds/sparkles.otf);}
+.spark {
+  font-family: hadaspa;
+  font-size: 30px;
+}
+.spark h3 {
+  font-size: 40px;
+  font-family: montserrat;
+}
+
+@font-face {font-family: tropic ground; src: url(https://files.jcink.net/uploads2/classifieds/tropicground_regular.otf);}
+.trop {
+  font-family: tropic ground;
+  font-size: 30px;
+}
+.trop h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: twolight regular; src: url(https://files.jcink.net/uploads2/classifieds/Twolight_Regular.otf);}
+.two {
+  font-family: twolight regular;
+  font-size: 30px;
+}
+.two h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: victor mono; src: url(https://files.jcink.net/uploads2/classifieds/VictorMono_SemiBoldItalic.ttf);}
+.vic {
+  font-family: victor mono;
+  font-size: 30px;
+}
+.vic h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: vintage fashion; src: url(https://files.jcink.net/uploads2/classifieds/vintage.otf);}
+.vin {
+  font-family: vintage fashion;
+  font-size: 30px;
+}
+.vin h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: wendy; src: url(https://files.jcink.net/uploads2/classifieds/wendy.ttf);}
+.wen {
+  font-family: wendy;
+  font-size: 30px;
+}
+.wen h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: zamon; src: url(https://files.jcink.net/uploads2/classifieds/Zamon_Regular.ttf);}
+.zamon {
+  font-family: zamon;
+  font-size: 30px;
+}
+.zamon h3 {
+  font-size: 40px;
+}
+
+@font-face {font-family: zefani; src: url(https://files.jcink.net/uploads2/classifieds/zefani.otf);}
+.zef {
+  font-family: zefani;
+  font-size: 30px;
+}
+.zef h3 {
+  font-size: 40px;
+}
